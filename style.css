@@ -1,0 +1,111 @@
+/* GENERALS */
+body {
+  margin: 0;
+  background-color: rgba(226, 209, 209, 0.801);
+}
+
+.active {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+}
+
+.separacio {
+  background-color: rgba(238, 235, 235, 0.918);
+  border: 1px solid black;
+  margin: 10px 30px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 0px 30px 0px 0px;
+  color: white;
+  display: block;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px 30px;
+  overflow: hidden;
+  padding: 0;
+}
+
+p {
+  font-size: 25px;
+}
+
+/* ESPECIFICS PEL TREBALL */
+
+/* Pàgina 25 */
+/* Selector de Font Arial*/
+.arial {
+  font-family: arial;
+}
+
+/* Selector de Font Lucida Handwriting */
+@font-face {
+  font-family: "lucida";
+  src: url("./fonts/LucidaHand.ttf") format("truetype");
+}
+.lucida {
+  font-family: lucida;
+}
+
+/* Lletra en negreta */
+.negreta {
+  font-weight: bold;
+}
+
+/* Lletra italica */
+.italica {
+  font-style: italic;
+}
+
+/* Letra subratllada */
+.subrat {
+  text-decoration: underline;
+}
+
+/* Subratllat amb color i estil de linea modificat */
+.estilSubICol {
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-style: double;
+}
+
+/* Texte amb linea al mig */
+.lineaMig {
+  text-decoration: line-through;
+}
+
+/* Texte Sub-Index */
+.subI span {
+  color: red;
+  font-size: 15px;
+  vertical-align: sub;
+}
+
+/* Texte Super-Index */
+.superI span {
+  color: red;
+  font-size: 15px;
+  vertical-align: super;
+}
+
+/* Pàgina 26 */
